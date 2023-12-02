@@ -1,0 +1,241 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+* {
+  margin: 5px;
+  padding: 0;
+}
+.selected-row {
+  background-color: #ccc;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+}
+.lower-outer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.upper-outer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Add this to style.css */
+
+/* Make bin button red */
+.delete-selected {
+  background-color: red;
+  color: white;
+}
+
+/* Maintain size of buttons */
+button {
+  padding: 8px;
+  margin: 2px;
+}
+
+/* Maintain size of pagination buttons */
+.lower-outer button {
+  padding: 5px 8px;
+}
+
+/* Highlight current page */
+.lower-outer button.active-page {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Center text in table cells horizontally and vertically */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 8px;
+  vertical-align: middle;
+}
+
+/* Style for the search input and icon */
+.upper-outer input[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.upper-outer .search-icon {
+  padding: 5px;
+}
+
+/* Style for the delete button in the upper-outer div */
+.upper-outer button {
+  padding: 8px;
+  background-color: red;
+  color: white;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* Add some styling to make it look cooler */
+table {
+  width: 100%;
+  margin: 10px 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 15px;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #343a40;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+/* Style for the search input and icon */
+.upper-outer input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ced4da; /* Add a border to the search input */
+  border-radius: 5px;
+}
+
+.upper-outer .search-icon {
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the delete button in the upper-outer div */
+.upper-outer button {
+  padding: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the delete-selected button in the lower-outer div */
+.lower-outer button.delete-selected {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the pagination buttons in the lower-outer div */
+.lower-outer button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lower-outer button.active-page {
+  background-color: #0056b3;
+}
+
+/* Style for the selected rows */
+.selected-row {
+  background-color: #e2e3e5;
+}
+
+/* Hover effect for table rows */
+table tbody tr:hover {
+  background-color: #e2e3e5;
+}
+.upper-outer .search-icon:focus {
+  outline: none;
+}
+
+/* Improve input format during editing */
+table input[type="text"] {
+  width: 80%; /* Adjust the width as needed */
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the edit and delete buttons in the table */
+table button {
+  padding: 8px;
+  margin: 2px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for edit and delete buttons */
+table button:hover {
+  background-color: #e2e3e5;
+  border-radius: 5px;
+}
+
+/* Style for the delete button in the upper-outer div */
+.upper-outer button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the delete-selected button in the lower-outer div */
+.lower-outer button.delete-selected {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the pagination buttons in the lower-outer div */
+.lower-outer button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lower-outer button.active-page {
+  background-color: #0056b3;
+}
+
+/* Style for the selected rows */
+.selected-row {
+  background-color: #e2e3e5;
+}
+
+/* Hover effect for table rows */
+table tbody tr:hover {
+  background-color: #e2e3e5;
+}
