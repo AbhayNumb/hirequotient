@@ -10,7 +10,8 @@ Follow these steps to set up and run the project locally:
    ```bash
    git clone https://github.com/AbhayNumb/hirequotient.git
 Change to the project directory
-cd hirequotient
+```bash
+   cd hirequotient
 Install dependencies
 npm install
 To start the application, run the following command:
