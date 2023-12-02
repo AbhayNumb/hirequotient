@@ -12,13 +12,10 @@ Follow these steps to set up and run the project locally:
 3. Change to the project directory
    ```bash
    cd hirequotient
-
-Install dependencies
-```bash
+4. Install dependencies
+   ```bash
    npm install
-
-To start the application, run the following command:
-```bash
+5. To start the application, run the following command:
+   ```bash
    npm start
-
-Visit http://localhost:3000 in your web browser to access the application.
+6. Visit http://localhost:3000 in your web browser to access the application.
